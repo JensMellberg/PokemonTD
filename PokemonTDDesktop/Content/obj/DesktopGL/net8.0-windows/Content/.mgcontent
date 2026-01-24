@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Articuno.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/ArticunoP.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Bagon.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/BagonP.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Bricks.bmp</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Charizard.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/CharizardP.PNG</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/CharmanderP.bmp</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/CharmanderTower.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Charmeleon.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Circle.PNG</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/CrossHair.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/DefaultFont.spritefont</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/DialogBox.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Exeggcute.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/ExeggcuteP.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Exeggutor.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Exit.bmp</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Gastly.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/GastlyP.PNG</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Gengar.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Goal.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/GoldCoin.bmp</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Grass.bmp</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Groudon.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Gyarados.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Hariyama.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Haunter.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/healthbar.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/HelpButton.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/HitmonP.PNG</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/hitpoints.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/HyenaP.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Koffing.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/KoffingP.PNG</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level1.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level10.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level11.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level12.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level13.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level14.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level15.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level16.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level17.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level18.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level19.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level2.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level20.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level21.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level22.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level23.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level24.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level25.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level26.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level27.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level28.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level29.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level3.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level30.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level31.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level32.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level33.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level34.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level35.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level36.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level37.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level38.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level39.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level4.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level40.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level41.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level421.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level422.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level423.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level43.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level44.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level45.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level46.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level47.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level48.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level49.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level5.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level50.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level6.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level7.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level8.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Level9.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Magikarp.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/MagikarpP.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Makuhita.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Menu.bmp</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Mightyena.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/NextLevel.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Onix.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/OnixP.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Pichu.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/PickachuP.bmp</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Pidgeot.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Pidgeotto.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Pidgey.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/PidgeyP.PNG</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Pikachu.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Poochyena.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Raichu.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Salamence.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Scizor.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Scyther.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/ScytherP.PNG</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/SellButton.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Settings.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Shelgon.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/ShinyMagikarp.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/SimpleButton.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Speed05x.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Speed1x.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Speed2x.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Start.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Steelix.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/TowerChange.bmp</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/UpgradeButton.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/VisibilityButton.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Water.bmp</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Weezing.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/Wobbuffet.png</File>
+    <File>C:/Users/jens_/source/repos/CrossPlatformPokemonTD/PokemonTDDesktop/Content/WobbuP.PNG</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

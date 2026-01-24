@@ -1,0 +1,3 @@
+drawable\icon;drawable\icon
+layout\login;layout\Login
+values\strings;values\Strings
