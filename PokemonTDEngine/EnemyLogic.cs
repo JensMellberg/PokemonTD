@@ -66,6 +66,7 @@ namespace PokemonTDEngine
 
             if (path.HasReachedNextPosition(Position, Speed))
             {
+                Position = path.NextPoint;
                 path.UpdatePosition();
             }
 

@@ -14,6 +14,8 @@ namespace PokemonTDEngine
 
         public static float FontScale = 0.25f;
 
+        public const float EPSILON = 0.0001f;
+
         public static Rectangle CreateSourceRectangle(Vector2 position, Vector2 size) =>
             new((int)position.X, (int)position.Y, (int)size.X, (int)size.Y);
 

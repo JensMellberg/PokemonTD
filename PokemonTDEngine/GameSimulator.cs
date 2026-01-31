@@ -21,6 +21,12 @@ namespace PokemonTDEngine
             while (!isFinished)
             {
                 PerformRelevantEvents();
+                var nextEvent = NextEvent();
+                if (nextEvent?.LevelAtEvent == levelHandler.CurrentLevel)
+                {
+                    throw new Exception($"Event could not trigger at level {nextEvent.LevelAtEvent} and tick {nextEvent.TickAtEvent} since the previous level ended before that."); ;
+                }
+
                 levelHandler.StartNextLevel();
                 while (levelHandler.IsLevelOnGoing && !isFinished)
                 {
@@ -33,6 +39,7 @@ namespace PokemonTDEngine
             void PerformRelevantEvents()
             {
                 var @event = NextEvent();
+
                 while (@event?.LevelAtEvent == levelHandler.CurrentLevel && @event?.TickAtEvent == gameEngine.CurrentTicks)
                 {
                     PerformEvent(@event, gameEngine);

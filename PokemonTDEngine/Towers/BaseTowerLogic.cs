@@ -11,7 +11,7 @@ namespace PokemonTDEngine.Towers
 
         public GameEngine GameEngine = gameEngine;
 
-        protected int Range => Utils.AdjustForScreen(Stats.Range);
+        protected float Range => Utils.AdjustForScreen(Stats.Range);
 
         public override bool HasStaticPosition => false;
 
@@ -66,7 +66,7 @@ namespace PokemonTDEngine.Towers
         protected virtual BaseProjectile CreateProjectile(EnemyLogic target, int damage) =>
             new(Center, target, this, damage);
 
-        protected bool IsInRange(EnemyLogic enemy) => enemy != null && Utils.DistanceBetween(Position, enemy.Position) <= Range;
+        protected bool IsInRange(EnemyLogic enemy) => enemy != null && Utils.DistanceBetween(Position, enemy.Position) <= Range + Utils.EPSILON;
 
         protected int CalculateDamage(EnemyLogic enemy) => (int)Math.Floor(Stats.Damage * Stats.Type.GetMultiplier(enemy.Template.Type));
 

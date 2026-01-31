@@ -81,7 +81,7 @@ namespace PokemonTDEngine.Towers
         public const string Groudon = "Groudon";
     }
 
-    public record TowerStats(string Name, string Id, int Cost, int Range, int Cooldown, int Damage, Type Type, int BuildableTileType = TileHandler.GrassTileType)
+    public record TowerStats(string Name, string Id, int Cost, float Range, int Cooldown, int Damage, Type Type, int BuildableTileType = TileHandler.GrassTileType)
     {
         public static TowerStats Charmander = new(
             TowerId.Charmander,

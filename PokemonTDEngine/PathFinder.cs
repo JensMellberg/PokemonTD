@@ -1,4 +1,5 @@
-﻿using System.Numerics;
+﻿using System.Collections.Generic;
+using System.Numerics;
 
 namespace PokemonTDEngine
 {
@@ -81,7 +82,8 @@ namespace PokemonTDEngine
 
         public bool HasReachedGoal => currentIndex >= points.Count;
 
-        public bool HasReachedNextPosition(Vector2 position, float speed) => Utils.DistanceBetween(position, NextPoint) < speed;
+        public bool HasReachedNextPosition(Vector2 position, float speed) 
+            => (position - NextPoint).LengthSquared() < speed * speed;
 
         public void UpdatePosition() => currentIndex++;
     }

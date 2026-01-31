@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PokemonTDEngine")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1bb16192b89f3b1a827d4fc8812a843568f6a6d")]
 [assembly: System.Reflection.AssemblyProductAttribute("PokemonTDEngine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PokemonTDEngine")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
