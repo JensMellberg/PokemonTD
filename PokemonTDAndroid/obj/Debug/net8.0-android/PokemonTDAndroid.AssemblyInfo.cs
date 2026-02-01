@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PokemonTDAndroid")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+dd27bbb4007628e944b2a293efbda99c08b60ff3")]
 [assembly: System.Reflection.AssemblyProductAttribute("PokemonTDAndroid")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PokemonTDAndroid")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

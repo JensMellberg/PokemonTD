@@ -185,7 +185,7 @@ namespace PokemonTDEngine.Towers
             600,
             115,
             26,
-            150,
+            152,
             Type.Dragon);
         public static TowerStats Salamence = new(
             TowerId.Salamence,
@@ -282,7 +282,7 @@ namespace PokemonTDEngine.Towers
             1500,
             75,
             5,
-            140,
+            142,
             Type.Fighting);
         public static TowerStats Koffing = new(
             TowerId.Koffing,
@@ -322,7 +322,7 @@ namespace PokemonTDEngine.Towers
             7000,
             115,
             30,
-            2750,
+            2800,
             Type.Bug);
         public static TowerStats Articuno = new(
             TowerId.Articuno,

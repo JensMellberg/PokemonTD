@@ -194,11 +194,89 @@ public class SimulatorTests
         }
     }
 
-    private GameEngine SetupEngine(Difficulty difficulty)
+    [Fact]
+    public void UpgradesAreAlwaysBetterThanOriginal()
+    {
+        Utils.SizeMultiplier = 1f;
+        Utils.DefaultSize = new(50, 50);
+
+        ImpersonatedTower? currentTower = null;
+        var results = new Dictionary<string, (double, int)>();
+        double lastAddedDamage = 0;
+        var engine = SetupEngine(Difficulty.Normal, score =>
+        {
+            lastAddedDamage = Math.Round((double)score.DamageTestResult / currentTower.TotalCost, 3);
+            results.Add(currentTower.Stats.Name, 
+                (lastAddedDamage, currentTower.TotalCost));
+        });
+
+        currentTower = new ImpersonatedTower(new(8, 6), engine, TowerStats.Charmander);
+        engine.GameObjects.Add(new FakeTower(new(4, 2), engine, [], true));
+        engine.GameObjects.Add(new FakeTower(new(5, 3), engine, [], true));
+        engine.GameObjects.Add(new FakeTower(new(6, 4), engine, [], true));
+        engine.GameObjects.Add(new FakeTower(new(7, 5), engine, [], true));
+        engine.GameObjects.Add(new FakeTower(new(5, 6), engine, [], true));
+        engine.GameObjects.Add(new FakeTower(new(6, 7), engine, [], true));
+        engine.GameObjects.Add(new FakeTower(new(7, 8), engine, [], true));
+        engine.GameObjects.Add(new FakeTower(new(8, 8), engine, [], true));
+        engine.GameObjects.Add(new FakeTower(new(9, 8), engine, [], true));
+        engine.GameObjects.Add(new FakeTower(new(10, 7), engine, [], true));
+        engine.GameObjects.Add(new FakeTower(new(10, 6), engine, [], true));
+        engine.GameObjects.Add(new FakeTower(new(10, 5), engine, [], true));
+        engine.GameObjects.Add(new FakeTower(new(9, 4), engine, [], true));
+        engine.GameObjects.Add(new FakeTower(new(8, 3), engine, [], true));
+        engine.GameObjects.Add(new FakeTower(new(7, 2), engine, [], true));
+        engine.GameObjects.Add(new FakeTower(new(11, 7), engine, [], true));
+        engine.GameObjects.Add(new FakeTower(new(12, 8), engine, [], true));
+        engine.GameObjects.Add(new FakeTower(new(13, 9), engine, [], true));
+
+        TowerStats[] statsToTry = [TowerStats.Charmander, TowerStats.Pichu, TowerStats.Pidgey,
+            TowerStats.Onix, TowerStats.Poochyena, TowerStats.Bagon,
+            TowerStats.Gastly, TowerStats.Koffing, TowerStats.Makuhita,
+            TowerStats.Magikarp, TowerStats.Articuno, TowerStats.Groudon,
+            TowerStats.Scyther, TowerStats.Wobbuffet];
+        foreach (var stat in statsToTry)
+        {
+            AddResultFor(new ImpersonatedTower(new(8, 6), engine, stat), 0);
+        }
+
+        var ordered = results.OrderBy(x => x.Value.Item1).Select(x => (x.Key, x.Value.Item1, x.Value.Item2)).ToList();
+        foreach (var dps in ordered)
+        {
+            Assert.True(dps.Item2 < 3);
+        }
+
+        void AddResultFor(ImpersonatedTower tower, double previousDps)
+        {
+            currentTower = tower;
+            engine.LevelHandler.CurrentLevel = 50;
+            engine.GameObjects.Add(tower);
+            RunUntilNextLevel(engine);
+            Assert.True(lastAddedDamage > previousDps,
+                $"Expected {tower.Stats.Id} to have more dps than {previousDps} but had {lastAddedDamage}.");
+            var upgradeInfo = TowerLogicFactory.CreateTower(tower.Stats.Id, engine, Vector2.Zero).UpgradeInfo;
+            if (upgradeInfo != null)
+            {
+                var nextTower = new ImpersonatedTower(new(8, 6), engine, upgradeInfo);
+                nextTower.TotalCost += currentTower.TotalCost;
+                tower.ShouldDispose = true;
+                engine.GameObjects.Update(); 
+                AddResultFor(nextTower, lastAddedDamage);
+                return;
+            }
+
+            currentTower.ShouldDispose = true;
+            engine.GameObjects.Update();
+        }
+    }
+
+    private GameEngine SetupEngine(Difficulty difficulty) => SetupEngine(difficulty, _ => { });
+
+    private GameEngine SetupEngine(Difficulty difficulty, Action<GameResult> onGameWon)
     {
         GameObjects gameObjects = [];
         var levelHandler = new LevelHandler(gameObjects, difficulty);
-        var gameEngine = new GameEngine(_ => { }, difficulty, gameObjects, new GoldHandler(difficulty), new TileHandler(), levelHandler);
+        var gameEngine = new GameEngine(onGameWon, difficulty, gameObjects, new GoldHandler(difficulty), new TileHandler(), levelHandler);
         levelHandler.GameEngine = gameEngine;
         levelHandler.SetupLevels();
         return gameEngine;
@@ -211,6 +289,11 @@ public class SimulatorTests
         {
             gameEngine.Update();
         }
+    }
+
+    private class ImpersonatedTower(Vector2 position, GameEngine gameEngine, TowerStats stats) : BaseTowerLogic(GameEngine.TranslateFromTile(position), stats, gameEngine)
+    {
+        public override TowerStats UpgradeInfo => throw new NotImplementedException();
     }
 
     private class FakeTower(Vector2 position, GameEngine gameEngine, List<int> shotTicks, bool dontShoot = false) : Charmander(GameEngine.TranslateFromTile(position), gameEngine)
