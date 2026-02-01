@@ -38,9 +38,6 @@ namespace PokemonTDCore
                 }
             }
 
-            var simulator = new GameSimulator(results[Difficulty.Normal].Events, Difficulty.Normal);
-            simulator.SimulateGame();
-            var asd = simulator.Result;
             return results;
         }
 

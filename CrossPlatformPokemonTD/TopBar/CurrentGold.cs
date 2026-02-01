@@ -6,7 +6,7 @@ namespace PokemonTDCore.TopBar
 {
     public class CurrentGold(float startX, TextureHelper textureHelper, GameEngine gameEngine, int height, float textYPosition) : DrawableGameObject(Vector2.Zero, textureHelper.GoldCoin, Vector2.Zero, 2)
     {
-        public int Width = (int)(Utils.DefaultSize.X * 1.7);
+        public int Width = (int)(Utils.DefaultSize.X * 2);
 
         private Vector2 CoinPosition = new(startX + Utils.DefaultSize.X / 3, height / 2 - Utils.DefaultSize.X / 6);
 

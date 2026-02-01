@@ -2,7 +2,7 @@
 {
     public class GoldHandler(Difficulty difficulty)
     {
-        private const int DefaultGold = 100;
+        private const int DefaultGold = 10000;
 
         private int gold = DefaultGold + (difficulty == Difficulty.Extreme ? 50 : 0);
 

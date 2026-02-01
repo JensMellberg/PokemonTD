@@ -9,7 +9,7 @@ namespace PokemonTDEngine
 
         public bool IsLevelOnGoing { get; private set; }
 
-        public int CurrentLevel { get; private set; }
+        public int CurrentLevel { get; set; }
 
         private List<LevelTemplate> levelTemplates = [];
 

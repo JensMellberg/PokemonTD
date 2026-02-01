@@ -13,7 +13,7 @@ namespace PokemonTDCore.ServerCommunication
                 password
             };
 
-            var (response, success) = ServerCommunicationUtils.MakeRequest(serverIp, "ExternalLogin/Login", request);
+            var (response, success) = ServerCommunicationUtils.MakeRequest(serverIp, "ExternalLogin/Login", request, 10);
 
             if (!success)
             {
@@ -32,7 +32,7 @@ namespace PokemonTDCore.ServerCommunication
                 accessToken
             };
 
-            var (response, success) = ServerCommunicationUtils.MakeRequest(serverIp, "ExternalLogin/VerifyToken", request);
+            var (response, success) = ServerCommunicationUtils.MakeRequest(serverIp, "ExternalLogin/VerifyToken", request, 10);
 
             if (!success)
             {

@@ -6,12 +6,13 @@ namespace PokemonTDCore.ServerCommunication
 {
     public static class ServerCommunicationUtils
     {
-        public static HttpClient CreateClient(string serverIp)
+        public static HttpClient CreateClient(string serverIp, int timeoutSeconds)
         {
             var client = new HttpClient();
 
             client.BaseAddress = new Uri($"http://{serverIp}/");
 
+            client.Timeout = TimeSpan.FromSeconds(timeoutSeconds);
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(
                 new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
@@ -19,11 +20,11 @@ namespace PokemonTDCore.ServerCommunication
             return client;
         }
 
-        public static (HttpResponseMessage response, bool success) MakeRequest(string serverIp, string path, object body)
+        public static (HttpResponseMessage response, bool success) MakeRequest(string serverIp, string path, object body, int timeoutSeconds)
         {
             try
             {
-                var response = CreateClient(serverIp).PostAsJsonAsync(
+                var response = CreateClient(serverIp, timeoutSeconds).PostAsJsonAsync(
                 path,
                 body).Result;
                 return (response, response.IsSuccessStatusCode);

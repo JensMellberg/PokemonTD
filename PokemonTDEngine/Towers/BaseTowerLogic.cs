@@ -54,7 +54,7 @@ namespace PokemonTDEngine.Towers
             }
         }
 
-        protected void AttackEnemy(EnemyLogic enemy)
+        protected virtual void AttackEnemy(EnemyLogic enemy)
         {
             attackCooldown = Stats.Cooldown;
             var damage = CalculateDamage(enemy);

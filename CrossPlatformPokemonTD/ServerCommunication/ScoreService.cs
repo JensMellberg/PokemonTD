@@ -25,7 +25,7 @@ namespace PokemonTDCore.ServerCommunication
                 serializedEvents = EventTracker.SerializeEvents(events)
             };
 
-            var (response, success) = ServerCommunicationUtils.MakeRequest(userCredentials.ServerIp, "PokemonTD/Results/Store", body);
+            var (response, success) = ServerCommunicationUtils.MakeRequest(userCredentials.ServerIp, "PokemonTD/Results/Store", body, 120);
             if (!success)
             {
                 return false;
@@ -54,7 +54,7 @@ namespace PokemonTDCore.ServerCommunication
                 accessToken = userCredentials.AccessToken
             };
 
-            var (response, success) = ServerCommunicationUtils.MakeRequest(userCredentials.ServerIp, "PokemonTD/Results/Get", body);
+            var (response, success) = ServerCommunicationUtils.MakeRequest(userCredentials.ServerIp, "PokemonTD/Results/Get", body, 10);
             if (success)
             {
                 var result = response.Content.ReadFromJsonAsync<ScoreResponse>().Result;

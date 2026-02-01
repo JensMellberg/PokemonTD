@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PokemonTDCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1bb16192b89f3b1a827d4fc8812a843568f6a6d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+937d4e201e012fd3466ef4f2f291d186de22896f")]
 [assembly: System.Reflection.AssemblyProductAttribute("PokemonTDCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PokemonTDCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

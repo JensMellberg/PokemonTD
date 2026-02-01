@@ -137,7 +137,7 @@ namespace PokemonTDEngine.Towers
             100,
             110,
             24,
-            14,
+            17,
             Type.Flying);
         public static TowerStats Pidgeotto = new(
             TowerId.Pidgeotto,
@@ -193,7 +193,7 @@ namespace PokemonTDEngine.Towers
             1200,
             120,
             20,
-            300,
+            310,
             Type.Dragon);
         public static TowerStats Magikarp = new(
             TowerId.Magikarp,
@@ -210,7 +210,7 @@ namespace PokemonTDEngine.Towers
             2500,
             135,
             25,
-            200,
+            350,
             Type.Water);
         public static TowerStats Exeggcute = new(
             TowerId.Exeggcute,
@@ -234,7 +234,7 @@ namespace PokemonTDEngine.Towers
             300,
             105,
             25,
-            60,
+            65,
             Type.Dark);
         public static TowerStats Mightyena = new(
             TowerId.Mightyena,
@@ -242,7 +242,7 @@ namespace PokemonTDEngine.Towers
             1700,
             105,
             25,
-            60,
+            460,
             Type.Dark);
         public static TowerStats Gastly = new(
             TowerId.Gastly,
@@ -250,7 +250,7 @@ namespace PokemonTDEngine.Towers
             400,
             100,
             10,
-            40,
+            42,
             Type.Ghost);
         public static TowerStats Haunter = new(
             TowerId.Haunter,
@@ -266,7 +266,7 @@ namespace PokemonTDEngine.Towers
             4000,
             125,
             10,
-            740,
+            710,
             Type.Ghost);
         public static TowerStats Makuhita = new(
             TowerId.Makuhita,
@@ -274,7 +274,7 @@ namespace PokemonTDEngine.Towers
             600,
             75,
             5,
-            26,
+            40,
             Type.Fighting);
         public static TowerStats Hariyama = new(
             TowerId.Hariyama,
@@ -282,7 +282,7 @@ namespace PokemonTDEngine.Towers
             1500,
             75,
             5,
-            92,
+            140,
             Type.Fighting);
         public static TowerStats Koffing = new(
             TowerId.Koffing,
@@ -290,7 +290,7 @@ namespace PokemonTDEngine.Towers
             900,
             105,
             30,
-            210,
+            240,
             Type.Poison);
         public static TowerStats Weezing = new(
             TowerId.Weezing,
@@ -298,14 +298,14 @@ namespace PokemonTDEngine.Towers
             2000,
             115,
             30,
-            700,
+            780,
             Type.Poison);
         public static TowerStats Wobbuffet = new(
             TowerId.Wobbuffet,
             TowerId.Wobbuffet,
             2500,
             110,
-            25,
+            28,
             666,
             Type.Psychic);
         public static TowerStats Scyther = new(
@@ -314,7 +314,7 @@ namespace PokemonTDEngine.Towers
             3000,
             110,
             30,
-            950,
+            940,
             Type.Bug);
         public static TowerStats Scizor = new(
             TowerId.Scizor,
@@ -322,7 +322,7 @@ namespace PokemonTDEngine.Towers
             7000,
             115,
             30,
-            2500,
+            2750,
             Type.Bug);
         public static TowerStats Articuno = new(
             TowerId.Articuno,

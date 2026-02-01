@@ -67,6 +67,7 @@ namespace PokemonTDCore.Towers
             sellButton = new SellButton(textureHelper, OnSellButtonClick, towerLogic.SellPrice);
             List<DrawableGameObject> baseList = [new SquareItemText(textureHelper.DefaultFont, towerLogic.Stats.Name, Microsoft.Xna.Framework.Color.Black),
                 new TypeText(towerLogic.Stats.Type, textureHelper, gamePlayScreen, true),
+                new SquareItemText(textureHelper.DefaultFont, $"Damage: {towerLogic.Stats.Damage}", Microsoft.Xna.Framework.Color.DarkOrange),
                 sellButton];
             if (towerLogic.UpgradeInfo != null)
             {
