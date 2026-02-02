@@ -187,14 +187,14 @@ namespace PokemonTDEngine
             {
                 if (difficulty == Difficulty.Hard)
                 {
-                    return (int)Math.Floor(hp * 1.5);
+                    return (int)Math.Floor(hp * 1.8);
                 }
                 else if (difficulty == Difficulty.Extreme)
                 {
-                    return (int)Math.Floor(hp * 1.75);
+                    return (int)Math.Floor(hp * 2.25);
                 }
 
-                return hp;
+                return (int)Math.Floor(hp * 1.4);
             }
         }
 

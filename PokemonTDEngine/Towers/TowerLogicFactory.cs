@@ -274,7 +274,7 @@ namespace PokemonTDEngine.Towers
             600,
             75,
             5,
-            40,
+            35,
             Type.Fighting);
         public static TowerStats Hariyama = new(
             TowerId.Hariyama,
@@ -282,7 +282,7 @@ namespace PokemonTDEngine.Towers
             1500,
             75,
             5,
-            142,
+            120,
             Type.Fighting);
         public static TowerStats Koffing = new(
             TowerId.Koffing,
